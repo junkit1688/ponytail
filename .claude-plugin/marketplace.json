@@ -1,0 +1,13 @@
+{
+  "name": "ponytail",
+  "owner": {
+    "name": "Jun Kit"
+  },
+  "plugins": [
+    {
+      "name": "ponytail",
+      "source": "./"
+    }
+  ],
+  "description": "ponytail: a Claude Code token and time saver"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ponytail",
+  "version": "0.1.0",
+  "description": "Token and time saver: lean working rules, blocks repeat file reads, shows context fill. /ponytail on|off|status",
+  "author": { "name": "Jun Kit" }
+}
