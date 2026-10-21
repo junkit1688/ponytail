@@ -24,19 +24,24 @@ In the desktop app, where `/plugin` does not run: click + next to the prompt box
 
 ### From GitHub
 
-At the prompt of a terminal session:
+Two steps, on any Claude Code version, from a shell:
 
 ```
-/plugin install ponytail --marketplace junkit1688/ponytail
+claude plugin marketplace add junkit1688/ponytail
+claude plugin install ponytail@ponytail --scope user
 ```
 
-From a shell:
+Inside a session the same two steps are `/plugin marketplace add junkit1688/ponytail` then `/plugin install ponytail@ponytail`.
+
+One line, on Claude Code 2.1.299 or newer (which adds `--marketplace`):
 
 ```
 claude plugin install ponytail --marketplace junkit1688/ponytail
 ```
 
 Answer `y` to add the marketplace, then pick the user scope so it loads in every session.
+
+In the desktop app: click + next to the prompt box, then Plugins, Add marketplace with `junkit1688/ponytail`, then Add plugin.
 
 ## Develop
 
